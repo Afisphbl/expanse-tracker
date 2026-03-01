@@ -2,6 +2,7 @@ import React from "react";
 import { Wallet, Search, MoonStar } from "lucide-react";
 import Input from "../Reused/Input";
 import Button from "../Reused/Button";
+import Navigation from "../Navigation/Navigation";
 import "./Header.css";
 
 const avatar =
@@ -17,6 +18,7 @@ function Header() {
           </span>
           <span>ExpenseTracker</span>
         </div>
+        <Navigation />
       </section>
       <section className="header-right">
         <div className="search-container">

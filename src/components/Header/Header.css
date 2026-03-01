@@ -92,7 +92,7 @@
 
 .action-btn:hover {
   background-color: var(--bg);
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .profile-img {
