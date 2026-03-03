@@ -51,10 +51,11 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
+  cursor: pointer;
 }
 
 .footer-link:hover {
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .copyright {
